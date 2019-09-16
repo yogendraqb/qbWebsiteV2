@@ -1,0 +1,42 @@
+.carousel-slider{
+    height: 350px;
+}
+
+.slider-wrapper{
+    width: 70% !important;
+    height: -webkit-fill-available;
+
+}
+
+.slider{
+    display: flex;
+    margin-right: 20px;
+    align-items: center;
+    height: -webkit-fill-available;
+}
+
+.slide{
+    background: #f7f7f7 !important;
+    height: -webkit-fill-available;
+    display: flex;
+    align-items: center;
+}
+
+#legend{
+    text-align: center;
+    top:50%;
+    p{
+        font-size: 14px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.43;
+        letter-spacing: -0.3px;
+        text-align: center;
+
+    }
+    div{
+       display: flex;
+       flex-direction: column;
+    }
+}

@@ -1,0 +1,41 @@
+ @import '../../assets/variables';
+ @import '../../assets/common';
+
+#legend{
+    background: transparent ;
+    color: $dark-text;
+    text-align: left ;
+    opacity: 1;
+    position: absolute;
+    margin-left: 0;
+    left: 10%;
+    top: 20%;
+    height: fit-content;
+    label{
+        height: 30px;
+    }
+    p{
+       @extend .font-medium-24-dark
+    }
+    button{
+        width: 191px;
+        height: 50px;
+        border-radius: 8px;
+        background-color:$dark-text;
+        border: none;
+        span{
+            width: 153px;
+            height: 18px;
+        }    
+    }
+}
+
+.carousel .slide img{
+// width: 50%  !important;
+height: 100% !important;
+}
+
+.control-dots{
+    padding: 0 !important;
+    text-align: left !important;
+}
